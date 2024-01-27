@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NewsanZa Insight</title>
+    <link rel="icon" href="image/mwhite.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <div class="fixheader">
+        <div class="mainhead">
+            <img src="image/white.png" alt="logo">
+        </div>
+        <div class="header1">
+            <div class="logo">
+                <img src="image/logo.png" alt="logo">
+            </div>
+            <div class="searchfilters">
+                <a href="#" id="temp">India</a>
+                <a href="#" id="temp">World</a>
+                <a href="#" id="temp">Business</a>
+                <a href="#" id="temp">Tech</a>
+                <a href="#" id="temp">TV</a>
+                <a href="#" id="temp">Web Series</a>
+                <a href="#" id="temp">Life & Style</a>
+                <a href="#" id="temp">Cricket</a>
+                <a href="#" id="temp">Education</a>
+                <a href="#" id="temp">Blogs</a>
+                <a href="#" id="temp">Sport</a>
+                <a href="#" id="temp">Entertainment</a>
+            </div>
+            <div class="searchbar">
+                <input type="text" placeholder="Ex. Science" id="search-input">
+                <button type="submit" id="submitbtn" style="width: 60px; color: white; background-color: #2980B9;">
+                    <!-- <i class="fa-solid fa-magnifying-glass"></i> -->
+                    Search
+                </button>
+            </div>
+        </div>
+    </div>
+    
+
+    
+    <div class="MAINNEWSBOX">
+        <div class="main-box-news">
+            <div id="main-content">
+                
+            </div>
+            <template id="template-box">
+                <div class="card">
+                    <div class="header" style="overflow: hidden;">    
+                        <img src="https://placehold.co/400x200" alt="NEWSIMAGE" id="news-img" class="news-img">
+                    </div> 
+                        <div class="card-content">
+                            <h2 id="news-title" style="font-family: 'Newsreader', serif; color: rgb(16, 80, 153);" class="news-title">THIS IS TITLE</h2>
+                            <h6  id="news-srcdt" class="news-srcdt" style="color: rgb(21, 40, 62);">DayDate </h6>
+                            <p id="news-content" style="color: rgb(0, 0, 0);">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis obcaecati distinctio cum. Odio autem temporibus accusamus perferendis velit sunt vitae, praesentium tempora numquam saepe nobis. Debitis at iure vitae dolorum!
+                                Commodi, incidunt illum sunt laudantium totam adipisci unde cumque</p>
+                        </div> 
+                </div>
+            
+        </div>
+        </template>
+
+    </div>
+
+</body>     
+<script src="script.js"></script>
+</html>
